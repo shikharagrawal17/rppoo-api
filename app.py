@@ -69,6 +69,6 @@ api.add_resource(Questions, "/question/<int:question_id>")
 api.add_resource(CompanySpecificQuestions, "/question/<string:companyName>")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False
 
 
